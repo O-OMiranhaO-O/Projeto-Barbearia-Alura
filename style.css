@@ -1,0 +1,12 @@
+body {
+  background-color: #1a1717;
+  color: #f0f0f0;
+}
+.main {
+  background: linear-gradient(45deg, #3b3535, #333);
+  padding: 10px 60px;
+  border-radius: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: left;
+  word-spacing: 30px;
+}
