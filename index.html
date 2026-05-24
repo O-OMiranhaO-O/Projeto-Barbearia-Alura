@@ -1,21 +1,62 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arnold's</title>
+    <title>Arnold's Barbearia</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="main">
-      <a href="index.html">Home</a>
-      <a href="#produtos">Produtos</a>
-      <a href="#cortes">Cortes</a>
-    </nav>
-
-    <header>
-      <h1>Arnold's</h1>
+    <header class="site-header">
+      <div class="brand">Arnold's</div>
+      <nav class="navigation">
+        <a href="#home">Home</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#cortes">Cortes</a>
+      </nav>
     </header>
-    <img src="./assets/barbeariabanner.png" alt="" />
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <h1>Bem-vindo à Barbearia Arnold's</h1>
+          <p>
+            Cortes profissionais, ambiente moderno e atendimento de primeira
+            para você se sentir confiante.
+          </p>
+        </div>
+        <img
+          src="./assets/barbeariabanner.png"
+          class="banner"
+          alt="Banner da Barbearia Arnold's"
+        />
+      </section>
+
+      <section id="produtos" class="info-section">
+        <h2>Produtos</h2>
+        <img
+          src="./assets/produtosmacho.png"
+          class="products-image"
+          alt="Produtos da Barbearia Arnold's"
+        />
+        <p>
+          Oferecemos shampoos, ceras, pomadas e óleos especiais para cuidar do
+          seu cabelo e barba.
+        </p>
+      </section>
+
+      <section id="cortes" class="info-section">
+        <h2>Cortes</h2>
+        <img
+          src="./assets/cortes.png"
+          class="cuts-image"
+          alt="Cortes de cabelo e barba da Barbearia Arnold's"
+        />
+        <p>
+          Escolha entre cortes clássicos, degradês modernos e barbas desenhadas
+          com acabamento impecável.
+        </p>
+      </section>
+    </main>
   </body>
 </html>
